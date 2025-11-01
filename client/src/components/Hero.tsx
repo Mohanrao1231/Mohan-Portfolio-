@@ -60,18 +60,18 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-white/70 mb-3">Hello, I'm</p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 relative">
           <span className="relative inline-block glass-name-effect">
-            Pratham P. <span className="gradient-text">Sharma</span>
+            Mohan <span className="gradient-text">Rao</span>
           </span>
         </h1>
         <div className="reveal-code text-xl md:text-2xl mb-8">
-          <span itemProp="jobTitle">Specialized in AI/ML, Cloud Computing & DevOps</span>
+          <span itemProp="jobTitle">DevOps Engineer | Cloud & Automation Enthusiast</span>
         </div>
         
         <div className="flex flex-col md:flex-row gap-4 justify-center mt-8">
           <a 
             href="#about" 
             className="px-6 py-3 rounded-full gradient-bg text-white font-medium transition-transform hover:scale-105"
-            aria-label="Learn more about Pratham P. Sharma"
+            aria-label="Learn more about Chokkaku Mohan Rao"
           >
             About Me
           </a>
@@ -79,7 +79,7 @@ const Hero = () => {
           <a 
             href="#contact" 
             className="px-6 py-3 rounded-full bg-transparent border border-white/30 text-white font-medium transition-all hover:border-portfolio-accent1"
-            aria-label="Contact Pratham P. Sharma"
+            aria-label="Contact Chokkaku Mohan Rao"
           >
             Get in Touch
           </a>
