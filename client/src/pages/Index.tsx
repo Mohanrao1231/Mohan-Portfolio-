@@ -12,10 +12,10 @@ import Footer from "../components/Footer";
 const Index = () => {
   useEffect(() => {
     // Set page title and meta description for SEO
-    document.title = "Pratham P. Sharma - AI/ML & Cloud Computing Specialist";
+    document.title = "Chokkaku Mohan Rao - Cloud, DevOps & Automation Engineer";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Portfolio of Pratham P. Sharma, a Computer Science undergraduate specializing in AI/ML and Cloud Computing. Discover my skills, projects, and professional experience.");
+      metaDescription.setAttribute("content", "Portfolio of Chokkaku Mohan Rao, a Computer Science undergraduate specializing in AI/ML and Cloud Computing. Discover my skills, projects, and professional experience.");
     }
     
     // Update keywords meta tag
@@ -25,7 +25,7 @@ const Index = () => {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'Pratham portfolio, Pratham P. Sharma, Pratham Pujya Sharma, AI/ML specialist, Cloud Computing, GCP, AWS, Java, Python');
+    metaKeywords.setAttribute('content', 'Mohan, Portfolio, portfolio, Chokkaku Mohan Rao, cloud engineer, devops engineer, automation engineer, computer science student, AI/ML enthusiast, GCP expert, AWS certified, Cloud Computing, GCP, AWS, Java, Python');
   }, []);
 
   return (
