@@ -76,7 +76,7 @@ const Contact = () => {
       // Create mailto link with form data
       const subject = `Message from ${formData.name}`;
       const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-      const mailtoLink = `mailto:prathamp.sharma.02@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailtoLink = `mailto:mohanchokkaku@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       
       // Open email client
       window.location.href = mailtoLink;
@@ -187,7 +187,7 @@ const Contact = () => {
               
               <div className="flex-grow space-y-8">
                 <a 
-                  href="mailto:prathamp.sharma.02@gmail.com" 
+                  href="mailto:mohanchokkaku@gmail.com" 
                   className="flex items-center gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
                 >
                   <div className="w-12 h-12 rounded-full gradient-bg flex items-center justify-center">
@@ -195,12 +195,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white/80 text-sm">Email</h4>
-                    <p className="font-medium">prathamp.sharma.02@gmail.com</p>
+                    <p className="font-medium">mohanchokkaku@gmail.com</p>
                   </div>
                 </a>
                 
                 <a 
-                  href="https://www.linkedin.com/in/pratham-p-sharma" 
+                  href="https://www.linkedin.com/in/chokkaku-mohan-rao-b13021285" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
@@ -210,12 +210,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white/80 text-sm">LinkedIn</h4>
-                    <p className="font-medium">linkedin.com/in/pratham-p-sharma</p>
+                    <p className="font-medium">linkedin.com/in/chokkaku-mohan-rao-b13021285</p>
                   </div>
                 </a>
                 
                 <a 
-                  href="https://github.com/PrathamP-dev" 
+                  href="https://github.com/Mohanrao1231" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
@@ -225,7 +225,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white/80 text-sm">GitHub</h4>
-                    <p className="font-medium">github.com/PrathamP-dev</p>
+                    <p className="font-medium">github.com/Mohanrao1231</p>
                   </div>
                 </a>
               </div>

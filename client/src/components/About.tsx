@@ -23,14 +23,9 @@ const About = () => {
   const education = [
     {
       degree: "Bachelor of Technology in Computer Science (AIML)",
-      institution: "Sharda University",
-      period: "2024 - 2028"
+      institution: "Lendi Institute of Engineering and Technology",
+      period: "2023-2027"
     },
-    {
-      degree: "CS50 – Computer Science",
-      institution: "Harvard University",
-      period: "2024"
-    }
   ];
 
   return (
@@ -46,16 +41,15 @@ const About = () => {
             <div className="w-20 h-1 gradient-bg mb-6"></div>
 
             <p className="text-white/80 mb-6 leading-relaxed">
-              Pratham P. Sharma is a driven Computer Science undergraduate specializing in Artificial 
+              Chokkaku Mohan Rao is a driven Computer Science undergraduate specializing in Artificial 
               Intelligence and Machine Learning. With expertise in cloud computing, web development, 
               and AI, he has shown exceptional proficiency in Google Cloud, AWS, and DevOps.
             </p>
 
             <p className="text-white/80 mb-8 leading-relaxed">
-              Pratham's passion for open-source contributions and innovation is reflected in his active 
-              involvement in cloud hackathons and industry collaborations. His achievements in cloud 
-              technology and AI underline his ability to lead, solve complex problems, and contribute 
-              significantly to impactful projects.
+              Mohan's passion for innovation and open-source projects. He enjoys contributing 
+              to technology communities, exploring cloud platforms like AWS and Google Cloud, and 
+              continuously learning about AI and automation to make an impact in the tech industry.
             </p>
 
             {/* Education Section */}
