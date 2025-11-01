@@ -45,7 +45,7 @@ const Header = () => {
       }`}
     >
       <div className="container px-4 mx-auto flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold gradient-text">PS</a>
+        <a href="#home" className="text-2xl font-bold gradient-text">CM</a>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
