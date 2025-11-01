@@ -60,7 +60,7 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-white/70 mb-3">Hello, I'm</p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 relative">
           <span className="relative inline-block glass-name-effect">
-            Mohan <span className="gradient-text">Rao</span>
+            Chokkaku <span className="gradient-text">Mohan Rao</span>
           </span>
         </h1>
         <div className="reveal-code text-xl md:text-2xl mb-8">
