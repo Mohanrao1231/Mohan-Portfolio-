@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-white/60 text-sm">
-              © {new Date().getFullYear()} Pratham P. Sharma. All rights reserved.
+              © {new Date().getFullYear()} Chokkaku Mohan Rao. All rights reserved.
             </p>
           </div>
           
