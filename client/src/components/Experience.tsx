@@ -69,55 +69,48 @@ const Experience = () => {
 
   const workExperience = [
     {
-      title: "Program Associate – Tech Infra/DevOps",
-      subtitle: "Myristika Sustainable Solutions",
-      date: "Jun 2025 – Sep 2025",
-      description: "Defined and implemented a news aggregation product: researched workflows, validated goals, and built a system using AI summarization and automation tools, improving team productivity by 70%. Designed and deployed the organization's official website, aligning product requirements with business goals to establish online presence. Collaborated cross-functionally and prepared technical documentation (system workflows, API references, deployment guides) for seamless handover.",
+      title: "Indian Space Lab - Internship",
+      subtitle: "Indian Space Research Organisation (ISRO)",
+      date: "June 2025 – Aug 2025",
+      description: "Worked on a research and development project under the Space Applications Centre (SAC), focusing on remote sensing data analysis and AI-driven automation in satellite imagery. Contributed to preprocessing and classification of Earth observation datasets using Python, TensorFlow, and cloud-based GIS tools. Implemented algorithms to improve feature detection accuracy by 25%, documented results, and presented findings to senior scientists for further integration into national research initiatives.",
       icon: <Briefcase size={20} className="text-white" />
     },
     {
-      title: "DevOps Intern",
-      subtitle: "Paytm",
-      date: "May 2025 - Jul 2025",
-      description: "Automated GPU provisioning with Terraform & Terragrunt, reducing setup time by 80%. Deployed scalable LLM inference pipelines using SGLang, boosting throughput by 30%. Created optimized Docker environments and automated system operations with Bash scripts.",
+      title: "DevOps Trainee",
+      subtitle: "HeyDevOps",
+      date: "March 2024 - Sep 2025",
+      description: "Worked as a DevOps Trainee at HeyDevOps, gaining hands-on experience with cloud infrastructure automation and deployment pipelines. Implemented Infrastructure as Code (IaC) using Terraform and Terragrunt to automate provisioning and configuration. Containerized applications with Docker, optimized CI/CD workflows, and collaborated with teams to enhance system reliability and deployment efficiency.",
       icon: <Briefcase size={20} className="text-white" />
     },
     {
-      title: "Google Cloud Community India",
-      subtitle: "Arcade Facilitator",
-      date: "June 2024 - Present",
-      description: "Organized events and workshops, boosting participation by 30%. Contributed to discussions and collaborated on Google Cloud solutions.",
-      icon: <Briefcase size={20} className="text-white" />
-    },
-    {
-      title: "Google",
-      subtitle: "Associate Cloud Engineer",
-      date: "September 2024 - November 2024",
-      description: "Successfully completed GCP3 Associate Cloud Engineer program, demonstrating proficiency in cloud infrastructure and services.",
+      title: "Infosys",
+      subtitle: "Industry–Academia Connect with Infosys",
+      date: "September 2025",
+      description: "Participated in the Industry–Academia Connect event organized by Infosys at GITAM University to celebrate the 2nd Anniversary of the Infosys Vizag Development Center. Gained valuable insights into Artificial Intelligence, innovation, and industry collaboration through interactive sessions led by senior Infosys leadership.",
       icon: <Briefcase size={20} className="text-white" />
     }
   ];
 
   const education = [
     {
-      title: "Sharda University",
+      title: "Lendi Institute of Engineering and Technology",
       subtitle: "B.Tech in Computer Science (AIML)",
-      date: "2024 - 2028",
+      date: "2023 - 2027",
       description: "Specializing in Artificial Intelligence and Machine Learning.",
       icon: <GraduationCap size={20} className="text-white" />
     },
     {
-      title: "Harvard University",
-      subtitle: "Computer Science",
-      date: "2024",
-      description: "Comprehensive introduction to computer science principles and programming.",
+      title: "Apex Junior College",
+      subtitle: "MPC Stream",
+      date: "2022-2023",
+      description: "Studied Mathematics, Physics, and Chemistry, building a strong analytical and problem-solving foundation essential for engineering and technology studies.",
       icon: <GraduationCap size={20} className="text-white" />
     },
     {
-      title: "Central Board of Secondary Education",
-      subtitle: "Senior Secondary School",
-      date: "2020 - 2022",
-      description: "Completed senior secondary education with focus on science and mathematics.",
+      title: "Secondary State Education",
+      subtitle: "St'Marys High School",
+      date: "2021",
+      description: "Completed secondary education with strong academic performance, developing foundational knowledge in science, mathematics, and logical reasoning.",
       icon: <GraduationCap size={20} className="text-white" />
     }
   ];
