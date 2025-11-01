@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack portfolio web application built for Pratham P. Sharma, showcasing his skills, experience, and certifications in AI/ML and Cloud Computing. The application features a modern React frontend with a Node.js/Express backend, designed for both development and production deployment.
+This is a full-stack portfolio web application built for Chokkaku Mohan Rao, showcasing his skills, experience, and certifications in AI/ML and Cloud Computing. The application features a modern React frontend with a Node.js/Express backend, designed for both development and production deployment.
 
 ## System Architecture
 
