@@ -92,16 +92,14 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Bandhutva — LinkedIn Connection Manager",
-      description: "Browser extension enabling bulk accept/reject of LinkedIn connection requests with intuitive UI enhancements. Available for Firefox and Microsoft Edge.",
-      githubUrl: "https://github.com/PrathamP-dev/Bandhutva",
-      liveUrl: "https://addons.mozilla.org/en-US/firefox/addon/bandhutva/",
-      edgeUrl: "https://microsoftedge.microsoft.com/addons/detail/bandhutva/holdnfdoggehnkgemgbmbbjnomolffke"
+      title: "Microservice-Based E-Commerce Platform",
+      description: "Deployed a containerized microservice-based e-commerce platform on Kubernetes using NGINX Ingress and load balancing for scalable, high-availability performance.",
+      githubUrl: "https://github.com/Mohanrao1231/10-MicroService-Appliction.git",
     },
     {
-      title: "Vanasandesh.AI — Forestry & Wildlife Tech News Aggregator",
-      description: "Automated Python-based system for aggregating, moderating, and summarizing forestry and wildlife tech news.",
-      githubUrl: "https://github.com/PrathamP-dev/Vanasandesh.AI",
+      title: "Recipe Book Application – CI/CD Deployment",
+      description: "Built and containerized a Recipe Book web app, automated CI/CD pipeline to deploy artifacts to Apache Tomcat using Docker and Jenkins for streamlined delivery.",
+      githubUrl: "https://github.com/Mohanrao1231/recipe-book-app.git",
     }
   ];
 
