@@ -2,6 +2,8 @@
 import { useState, useEffect } from 'react';
 import { Mail, Linkedin, Github, Send } from 'lucide-react';
 import { useToast } from '../hooks/use-toast';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const { toast } = useToast();
@@ -69,29 +71,42 @@ const Contact = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    
-    if (validateForm()) {
-      // Create mailto link with form data
-      const subject = `Message from ${formData.name}`;
-      const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-      const mailtoLink = `mailto:mohanchokkaku@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      // Show success message
-      toast({
-        title: 'Email draft created!',
-        description: "Your email client should now open with the message pre-filled.",
-        variant: 'default',
-      });
-      
-      // Reset form
-      setFormData({ name: '', email: '', message: '' });
-    }
-  };
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  if (validateForm()) {
+    emailjs
+      .send(
+        'service_18iwc8f',          // ✅ Your Service ID
+        'template_l92wgm8',          // ⚠️ Replace with your actual Template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        'OP1BVdsKRXF5rhi5n'      // ⚠️ Replace with your EmailJS Public Key
+      )
+      .then(
+        () => {
+          toast({
+            title: 'Message sent successfully!',
+            description: "Thanks for reaching out — I’ll get back to you soon.",
+            variant: 'default',
+          });
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          console.error('FAILED...', error.text);
+          toast({
+            title: 'Failed to send message.',
+            description: 'Please try again later or contact me directly.',
+            variant: 'destructive',
+          });
+        }
+      );
+  }
+};
+
 
   return (
     <section id="contact" className="py-20 px-4 bg-black/30">
