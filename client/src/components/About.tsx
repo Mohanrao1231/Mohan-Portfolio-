@@ -72,7 +72,7 @@ const About = () => {
 
             <div className="flex">
               <a 
-                href="https://drive.google.com/file/d/1bxofQnwcfmwqd_4RY-azuiYZd2htACES/view?usp=drive_link" 
+                href="https://drive.google.com/file/d/102svKLgPZd8e6Y-UycjQ8N1zzRiS1HKe/view?usp=drive_link" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-full gradient-bg text-white font-medium transition-transform hover:scale-105"
